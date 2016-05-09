@@ -1,0 +1,16 @@
+## View: http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+logging:
+    file: angularjs.log
+    level.*: DEBUG
+spring:
+    application:
+        name: AngularJS
+    http:
+        encoding:
+            charset: UTF-8
+            enabled: true
+            force: true
+
+server:
+    port: 8080
+
